@@ -29,10 +29,9 @@
           <v-icon class="icon">mdi-home</v-icon>
         </div>
         <p>住んでるとこ: 山〇県</p>
-        <p>別荘: ありません</p>
-        <p>土地: ありません</p>
         <p>築: 10年以上はありそう</p>
         <p>自慢: 宅配便が朝イチで来ること</p>
+        <p>月の土地: 持ってません</p>
       </v-col>
       <v-col cols="12" sm="3">
         <div align="center">
