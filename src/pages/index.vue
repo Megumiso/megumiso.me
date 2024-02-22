@@ -19,7 +19,7 @@
 
     </v-carousel-item>
     <v-carousel-item>
-      test2
+      画像のネタがない
     </v-carousel-item>
   </v-carousel>
   <v-container>
