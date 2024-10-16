@@ -146,6 +146,29 @@
       </v-row>
     </v-container>
   </v-card>
+  <v-card hover @click="openVideoSokudoseigencom">
+    <v-card-title>
+      速度制限で動画を見る
+    </v-card-title>
+    <v-container>
+      <v-row>
+        <v-col cols="12" sm="6">
+          <img
+            src="../assets/videosokudoseigen_page.png"
+            style="width: 100%"
+          >
+        </v-col>
+        <v-col cols="12" sm="6">
+          <!-- TODO ここを変える-->
+          速度制限でも動画を見れるようにしたくて作った。<br>
+          <br>
+          大手サイトだと自動で画質調整するものの、Discordにアップロードされた動画は画質調整がないので、自分で作った。<br>
+          <br>
+          月間PV: 作ったばかりなので知らない。<br>
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-card>
   <v-divider></v-divider>
   <div align="center">
     (c) 2024 Megumiso<br>
@@ -166,5 +189,9 @@
 
   const openMedalgamejp = () => {
     window.open('https://medalgame.jp', '_blank');
+  }
+
+  const openVideoSokudoseigencom = () => {
+    window.open('https://video.sokudoseigen.com', '_blank');
   }
 </script>
