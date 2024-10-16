@@ -22,6 +22,17 @@
       画像のネタがない
     </v-carousel-item>
   </v-carousel>
+  <div align="center">
+    <v-container style="height: 180px;">
+      <v-row align="center" justify="center">
+        <v-col cols="12" sm="6">
+          <div style="height: 150px; background-color: #f0f0f0; border: 1px dashed #ccc;">
+            <!-- ここに後から画像を追加 -->
+          </div>
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
   <v-container>
     <v-row>
       <v-col cols="12" sm="3">
