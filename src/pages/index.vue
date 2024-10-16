@@ -31,7 +31,7 @@
         <p>住んでるとこ: 山〇県</p>
         <p>築: 10年以上はありそう</p>
         <p>自慢: 宅配便が朝イチで来ること</p>
-        <p>月の土地: 持ってません</p>
+        <p><a href="https://note.com/cosmosgirl/n/nbd97a61e5bef">月の土地</a>: 持ってません</p>
       </v-col>
       <v-col cols="12" sm="3">
         <div align="center">
@@ -68,6 +68,8 @@
         <p>さくらのVPS: 半年くらい</p>
         <p>HostHatch: 2022年~</p>
         <p>WebHosting24: 2022年~</p>
+        <p>Digital-VM: 2024年～2024年</p>
+        <p>agames: 2024年～</p>
       </v-col>
     </v-row>
   </v-container>
@@ -88,7 +90,7 @@
           DiscordのチャットをVCで読み上げるBot。<br>
           初めてのRustで作ったものがそれなりの利用者数になった結果、メンテしにくいスパゲティコードになってしまった。<br>
           <br>
-          当初はWix上で作られていたが、Adsenseがうまく動かないという致命的理由により、Vueを学習するきっかけとなった。<br>
+          フロントエンドは当初はWix上で作られていたが、Adsenseがうまく動かないという致命的理由により、Vueを学習するきっかけとなった。<br>
           <br>
           利用サーバー数: 1000~
         </v-col>
@@ -119,6 +121,31 @@
       </v-row>
     </v-conainer>
   </v-card>
+  <v-card hover @click="openMedalgamejp">
+    <v-card-title>
+      メダルゲーム.jp
+    </v-card-title>
+    <v-container>
+      <v-row>
+        <v-col cols="12" sm="6">
+          <img
+            src="../assets/medalgamejp_page.png"
+            style="width: 100%"
+          >
+        </v-col>
+        <v-col cols="12" sm="6">
+          全国のメダルゲームの情報をまとめたサイト。<br>
+          ユーザー同士で情報を共有する目的で作成。<br>
+          <br>
+          Twitterでツイートしたところ、それなりにRTされたので、めぐみそは喜んでいた。<br>
+          <br>
+          月間PV: 知らない。Analytics入れてない。<br>
+          CloudFlareによると、30日でUnique Visitorsは6000程度。<br>
+          Total Requestsは70万程度
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-card>
   <v-divider></v-divider>
   <div align="center">
     (c) 2024 Megumiso<br>
@@ -135,5 +162,9 @@
 
   const openMegumisoCom = () => {
     window.open('https://megumiso.com', '_blank');
+  }
+
+  const openMedalgamejp = () => {
+    window.open('https://medalgame.jp', '_blank');
   }
 </script>
