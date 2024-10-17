@@ -14,6 +14,11 @@ const router = createRouter({
       path: "/",
       name: "Home",
       component: () => import("../pages/index.vue")
+    },
+    {
+      path: "/about_fanbox",
+      name: "Fanbox",
+      component: () => import("../pages/fanbox.vue")
     }
   ]
 })
