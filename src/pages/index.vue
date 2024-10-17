@@ -70,7 +70,8 @@
           <a href="https://www.instagram.com/megumisogram?igsh=MmVlMjlkMTBhMg=="
             >Instagram
           </a>
-          <a href="https://steamcommunity.com/id/Megumiso/">Steam</a>
+          <a href="https://steamcommunity.com/id/Megumiso/">Steam </a>
+          <a href="https://megumiso.fanbox.cc/">FANBOX</a>
         </p>
       </v-col>
       <v-col cols="12" sm="3">
