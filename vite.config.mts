@@ -14,11 +14,7 @@ export default defineConfig({
   plugins: [
     VueRouter(),
     Vue({
-      template: { 
-        transformAssetUrls: {
-          includeAbsolute: false
-        }
-      },
+      template: { transformAssetUrls },
     }),
     // https://github.com/vuetifyjs/vuetify-loader/tree/master/packages/vite-plugin#readme
     Vuetify({
