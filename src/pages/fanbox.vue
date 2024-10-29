@@ -36,7 +36,10 @@
       </v-col>
       <v-col cols="12">
         <div align="center">
-          <a href="https://megumiso.fanbox.cc/" target="_blank" style="font-size: 24px"
+          <a
+            href="https://megumiso.fanbox.cc/"
+            target="_blank"
+            style="font-size: 24px"
             >FANBOXページはこちら！</a
           >
         </div>
@@ -100,21 +103,180 @@
                   >megumiso.com サポートDiscord</a
                 >に参加する必要があります。
               </p>
+              <v-btn @click="showYomisoTemplate = !showYomisoTemplate"
+                >申請テンプレートを開く</v-btn
+              >
+              <v-expand-transition>
+                <div v-if="showYomisoTemplate">
+                  <p>以下のテンプレートをコピーしてご利用ください。</p>
+                  <pre>
+[サービス名]: 読みそ
+[Discord ID]: 
+                  </pre>
+                </div>
+              </v-expand-transition>
+              <br />
+              <v-btn
+                @click="showYomisoDiscordIDCheck = !showYomisoDiscordIDCheck"
+                >Discord IDの確認方法(PC)
+              </v-btn>
+              <v-expand-transition>
+                <div v-if="showYomisoDiscordIDCheck">
+                  <v-img
+                    src="../assets/Discord_lDcumWJMGv.png"
+                    style="height: 100px"
+                    position="left"
+                  />
+                  <p>自分のユーザーをクリックします。</p>
+                  <v-img
+                    src="../assets/Discord_nUWijqXQKk.png"
+                    style="height: 300px"
+                    position="left"
+                  />
+                  <p>赤枠で囲まれた部分がDiscord IDです。</p>
+                </div>
+              </v-expand-transition>
+              <br />
+              <v-btn
+                @click="
+                  showYomisoDiscordIDCheckForPhone =
+                    !showYomisoDiscordIDCheckForPhone
+                "
+                >Discord IDの確認方法(スマホ)
+              </v-btn>
+              <v-expand-transition>
+                <div v-if="showYomisoDiscordIDCheckForPhone">
+                  <v-img
+                    src="../assets/Screenshot_20241029_103425_Discord.jpg"
+                    style="height: 100px"
+                    position="left"
+                  />
+                  <p>画面下の一番右の自分のアイコンをタップします。</p>
+                  <v-img
+                    src="../assets/Screenshot_20241029_103451_Discord.jpg"
+                    style="height: 300px"
+                    position="left"
+                  />
+                  <p>赤枠で囲まれた部分がDiscord IDです。</p>
+                </div>
+              </v-expand-transition>
               <v-divider></v-divider>
               <br />
               <h2>メダルゲーム.jp</h2>
               <p>ご利用のユーザー名</p>
-              <v-divider></v-divider>
+              <v-btn @click="showMedalGameTemplate = !showMedalGameTemplate"
+                >申請テンプレートを開く</v-btn
+              >
+              <v-expand-transition>
+                <div v-if="showMedalGameTemplate">
+                  <p>以下のテンプレートをコピーしてご利用ください。</p>
+                  <pre>
+[サービス名]: メダルゲーム.jp
+[ユーザー名]: 
+                  </pre>
+                </div>
+              </v-expand-transition>
               <br />
+              <v-btn
+                @click="
+                  showMedalGameUsernameCheck = !showMedalGameUsernameCheck
+                "
+                >ユーザー名の確認方法
+              </v-btn>
+              <v-expand-transition>
+                <div v-if="showMedalGameUsernameCheck">
+                  <v-img src="../assets/firefox_VS5YPwIHkb.png" style="height: 100px" position="left" />
+                  <p>メダルゲーム.jpにログインし、画面右上のアイコンをクリックします。</p>
+                  <v-img
+                    src="../assets/firefox_7o0Zs0QIcC.png"
+                    style="height: 300px"
+                    position="left"
+                  />
+                  <p>赤枠で囲まれた部分がユーザー名です。</p>
+                </div>
+              </v-expand-transition>
               <h2>速度制限でも動画を見る</h2>
               <p>ご利用のユーザーID</p>
+              <v-btn
+                @click="showSpeedLimitTemplate = !showSpeedLimitTemplate"
+                >申請テンプレートを開く</v-btn
+              >
+              <v-expand-transition>
+                <div v-if="showSpeedLimitTemplate">
+                  <p>以下のテンプレートをコピーしてご利用ください。</p>
+                  <pre>
+[サービス名]: 速度制限で動画を見る
+[ユーザーID]: 
+                  </pre>
+                </div>
+              </v-expand-transition>
+              <br />
+              <v-btn
+                @click="
+                  showSpeedLimitUserIDCheck = !showSpeedLimitUserIDCheck
+                "
+                >ユーザーIDの確認方法
+              </v-btn>
+              <v-expand-transition>
+                <div v-if="showSpeedLimitUserIDCheck">
+                  <v-img
+                    src="../assets/firefox_X88mP9pUoq.png"
+                    style="height: 100px"
+                    position="left"
+                  />
+                  <p>動画一覧をクリックします。</p>
+                  <v-divider></v-divider>
+                  <v-img src="../assets/firefox_6h27DH9J7Q.png" style="height: 100px" position="left" />
+                  <p>赤枠で囲まれた部分がユーザーIDです。</p>
+                  <v-divider></v-divider>
+                  <v-img
+                    src="../assets/firefox_keS17grypD.png"
+                    style="height: 100px"
+                    position="left"
+                  />
+                  <p>赤枠で囲まれた部分がユーザーIDです。</p>
+                </div>
+              </v-expand-transition>
             </v-col>
           </v-card-text>
         </v-card>
       </v-col>
       <v-col cols="12">
+        <v-card>
+          <v-card-title>特典付与までの流れ</v-card-title>
+          <v-card-text>
+            <p>・FANBOXにて支援いただいた後、運営よりメッセージをお送りします。</p>
+            <v-img src="../assets/firefox_7o0Zs0QIcC.png" style="height: 300px" position="left" />
+            <p>・特典を利用したいサービスと必要事項をメッセージよりお送りください。</p>
+            <p>※運営からメッセージを受け取る前でも特典の申請が可能です。</p>
+            <v-img src="../assets/firefox_7o0Zs0QIcC.png" style="height: 300px" position="left" />
+            <p>・特典の付与と同時に運営よりメッセージが送られます。</p>
+            <p>・以上で、特典の付与が完了します。</p>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12">
+        <v-card>
+          <v-card-title>質問コーナー</v-card-title>
+          <v-card-text>
+            <h3>Q: 特典は途中で変更できますか？</h3>
+            <p>A: 月1回のみ変更が可能です。</p>
+            <p>変更する際は、FANBOX内のメッセージ機能にてお問い合わせください。</p>
+            <br />
+            <h3>Q: 支援を停止した場合、特典も停止されますか？</h3>
+            <p>A: 停止されます。支援の継続状況は定期的に確認しているため、確認のタイミングで支援を停止していた場合、特典も停止されます。</p>
+            <br />
+            <h3>Q: 特典なしで支援をすることは可能ですか？</h3>
+            <p>A: もちろん可能です！今後の運営の励みになります！</p>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12">
         <div align="center">
-          <a href="https://megumiso.fanbox.cc/" target="_blank" style="font-size: 24px"
+          <a
+            href="https://megumiso.fanbox.cc/"
+            target="_blank"
+            style="font-size: 24px"
             >FANBOXページはこちら！</a
           >
         </div>
@@ -123,8 +285,25 @@
   </v-container>
   <v-divider></v-divider>
   <div align="center">
-    (c) 2024 Megumiso<br>
-    Hosted on Cloudflare Pages<br>
+    (c) 2024 Megumiso<br />
+    Hosted on Cloudflare Pages<br />
     Powered by Vue + Vuetify
   </div>
 </template>
+
+<script lang="ts" setup>
+import { ref } from "vue";
+
+//読みそ
+const showYomisoTemplate = ref(false);
+const showYomisoDiscordIDCheck = ref(false);
+const showYomisoDiscordIDCheckForPhone = ref(false);
+
+//メダルゲーム.jp
+const showMedalGameTemplate = ref(false);
+const showMedalGameUsernameCheck = ref(false);
+
+//速度制限でも動画を見る
+const showSpeedLimitTemplate = ref(false);
+const showSpeedLimitUserIDCheck = ref(false);
+</script>
