@@ -123,13 +123,13 @@
               <v-expand-transition>
                 <div v-if="showYomisoDiscordIDCheck">
                   <img
-                    src="../assets/Discord_lDcumWJMGv.png"
+                    src="../assets/Discord_image1.png"
                     style="height: 100px"
                     position="left"
                   />
                   <p>自分のユーザーをクリックします。</p>
                   <img
-                    src="../assets/Discord_nUWijqXQKk.png"
+                    src="../assets/Discord_image2.png"
                     style="height: 300px"
                     position="left"
                   />
