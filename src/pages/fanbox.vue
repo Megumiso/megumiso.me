@@ -122,13 +122,13 @@
               </v-btn>
               <v-expand-transition>
                 <div v-if="showYomisoDiscordIDCheck">
-                  <v-img
+                  <img
                     src="../assets/Discord_lDcumWJMGv.png"
                     style="height: 100px"
                     position="left"
                   />
                   <p>自分のユーザーをクリックします。</p>
-                  <v-img
+                  <img
                     src="../assets/Discord_nUWijqXQKk.png"
                     style="height: 300px"
                     position="left"
@@ -146,13 +146,13 @@
               </v-btn>
               <v-expand-transition>
                 <div v-if="showYomisoDiscordIDCheckForPhone">
-                  <v-img
+                  <img
                     src="../assets/Screenshot_20241029_103425_Discord.jpg"
                     style="height: 100px"
                     position="left"
                   />
                   <p>画面下の一番右の自分のアイコンをタップします。</p>
-                  <v-img
+                  <img
                     src="../assets/Screenshot_20241029_103451_Discord.jpg"
                     style="height: 300px"
                     position="left"
@@ -185,9 +185,9 @@
               </v-btn>
               <v-expand-transition>
                 <div v-if="showMedalGameUsernameCheck">
-                  <v-img src="../assets/firefox_VS5YPwIHkb.png" style="height: 100px" position="left" />
+                  <img src="../assets/firefox_VS5YPwIHkb.png" style="height: 100px" position="left" />
                   <p>メダルゲーム.jpにログインし、画面右上のアイコンをクリックします。</p>
-                  <v-img
+                  <img
                     src="../assets/firefox_7o0Zs0QIcC.png"
                     style="height: 300px"
                     position="left"
@@ -219,17 +219,17 @@
               </v-btn>
               <v-expand-transition>
                 <div v-if="showSpeedLimitUserIDCheck">
-                  <v-img
+                  <img
                     src="../assets/firefox_X88mP9pUoq.png"
                     style="height: 100px"
                     position="left"
                   />
                   <p>動画一覧をクリックします。</p>
                   <v-divider></v-divider>
-                  <v-img src="../assets/firefox_6h27DH9J7Q.png" style="height: 100px" position="left" />
+                  <img src="../assets/firefox_6h27DH9J7Q.png" style="height: 100px" position="left" />
                   <p>赤枠で囲まれた部分がユーザーIDです。</p>
                   <v-divider></v-divider>
-                  <v-img
+                  <img
                     src="../assets/firefox_keS17grypD.png"
                     style="height: 100px"
                     position="left"
@@ -246,10 +246,10 @@
           <v-card-title>特典付与までの流れ</v-card-title>
           <v-card-text>
             <p>・FANBOXにて支援いただいた後、運営よりメッセージをお送りします。</p>
-            <v-img src="../assets/firefox_7o0Zs0QIcC.png" style="height: 300px" position="left" />
+            <img src="../assets/firefox_7o0Zs0QIcC.png" style="height: 300px" position="left" />
             <p>・特典を利用したいサービスと必要事項をメッセージよりお送りください。</p>
             <p>※運営からメッセージを受け取る前でも特典の申請が可能です。</p>
-            <v-img src="../assets/firefox_7o0Zs0QIcC.png" style="height: 300px" position="left" />
+            <img src="../assets/firefox_7o0Zs0QIcC.png" style="height: 300px" position="left" />
             <p>・特典の付与と同時に運営よりメッセージが送られます。</p>
             <p>・以上で、特典の付与が完了します。</p>
           </v-card-text>
