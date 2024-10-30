@@ -103,7 +103,7 @@
                   >megumiso.com サポートDiscord</a
                 >に参加する必要があります。
               </p>
-              <v-btn @click="showYomisoTemplate = !showYomisoTemplate"
+              <v-btn @click="showYomisoTemplate = !showYomisoTemplate" style="margin-bottom: 5px"
                 >申請テンプレートを開く</v-btn
               >
               <v-expand-transition>
@@ -117,7 +117,7 @@
               </v-expand-transition>
               <br />
               <v-btn
-                @click="showYomisoDiscordIDCheck = !showYomisoDiscordIDCheck"
+                @click="showYomisoDiscordIDCheck = !showYomisoDiscordIDCheck" style="margin-bottom: 5px"
                 >Discord IDの確認方法(PC)
               </v-btn>
               <v-expand-transition>
@@ -141,7 +141,7 @@
                 @click="
                   showYomisoDiscordIDCheckForPhone =
                     !showYomisoDiscordIDCheckForPhone
-                "
+                "  style="margin-bottom: 5px"
                 >Discord IDの確認方法(スマホ)
               </v-btn>
               <v-expand-transition>
@@ -164,7 +164,7 @@
               <br />
               <h2>メダルゲーム.jp</h2>
               <p>ご利用のユーザー名</p>
-              <v-btn @click="showMedalGameTemplate = !showMedalGameTemplate"
+              <v-btn @click="showMedalGameTemplate = !showMedalGameTemplate" style="margin-bottom: 5px"
                 >申請テンプレートを開く</v-btn
               >
               <v-expand-transition>
@@ -180,7 +180,7 @@
               <v-btn
                 @click="
                   showMedalGameUsernameCheck = !showMedalGameUsernameCheck
-                "
+                " style="margin-bottom: 5px"
                 >ユーザー名の確認方法
               </v-btn>
               <v-expand-transition>
@@ -198,7 +198,7 @@
               <h2>速度制限でも動画を見る</h2>
               <p>ご利用のユーザーID</p>
               <v-btn
-                @click="showSpeedLimitTemplate = !showSpeedLimitTemplate"
+                @click="showSpeedLimitTemplate = !showSpeedLimitTemplate" style="margin-bottom: 5px"
                 >申請テンプレートを開く</v-btn
               >
               <v-expand-transition>
@@ -214,7 +214,7 @@
               <v-btn
                 @click="
                   showSpeedLimitUserIDCheck = !showSpeedLimitUserIDCheck
-                "
+                " style="margin-bottom: 5px"
                 >ユーザーIDの確認方法
               </v-btn>
               <v-expand-transition>
