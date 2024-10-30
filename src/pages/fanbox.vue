@@ -246,11 +246,12 @@
           <v-card-title>特典付与までの流れ</v-card-title>
           <v-card-text>
             <p>・FANBOXにて支援いただいた後、運営よりメッセージをお送りします。</p>
-            <img src="../assets/firefox_7o0Zs0QIcC.png" style="height: 300px" position="left" />
+            <img src="../assets/first.png" position="left" />
             <p>・特典を利用したいサービスと必要事項をメッセージよりお送りください。</p>
             <p>※運営からメッセージを受け取る前でも特典の申請が可能です。</p>
-            <img src="../assets/firefox_7o0Zs0QIcC.png" style="height: 300px" position="left" />
+            <img src="../assets/second.png" position="left" />
             <p>・特典の付与と同時に運営よりメッセージが送られます。</p>
+            <img src="../assets/third.png" position="left" />
             <p>・以上で、特典の付与が完了します。</p>
           </v-card-text>
         </v-card>
