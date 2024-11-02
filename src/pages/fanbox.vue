@@ -98,7 +98,7 @@
               <p>Discord ID</p>
               <p>
                 特典の付与時には、一時的に<a
-                  href="https://discord.gg/4b7nJrcK"
+                  href="https://discord.gg/n6GnfeqP94"
                   target="_blank"
                   >megumiso.com サポートDiscord</a
                 >に参加する必要があります。
