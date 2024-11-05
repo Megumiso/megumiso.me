@@ -1,5 +1,31 @@
 <template>
   <v-carousel hide-delimiters>
+    <v-carousel-item src="../assets/computers.jpeg" cover>
+      <div
+        class="d-flex fill-height justify-center align-center"
+        style="
+          font-size: 48px;
+          font-weight: 500;
+          color: white;
+          text-shadow: 1px 1px 2px black;
+        "
+        v-if="$vuetify.display.xs"
+      >
+        めぐみそ.me
+      </div>
+      <div
+        class="d-flex fill-height justify-center align-center"
+        style="
+          font-size: 64px;
+          font-weight: 500;
+          color: white;
+          text-shadow: 1px 1px 2px black;
+        "
+        v-if="!$vuetify.display.xs"
+      >
+        めぐみそ.me
+      </div>
+    </v-carousel-item>
     <v-carousel-item src="../assets/saize_ebi_salad.jpg" cover>
       <div
         class="d-flex fill-height justify-center align-center"
